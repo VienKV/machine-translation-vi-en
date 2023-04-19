@@ -32,8 +32,8 @@ $$ŵ^{(t)} = argmax_{(w(t))}θ(w(s), w(t))$$
 &nbsp;&nbsp;&nbsp;&nbsp;And I use beam search to select words in decode and evaluate the translation results with a Bleu score.
 
 ## Main results
-&nbsp;&nbsp;&nbsp;&nbsp;You can see the results and analysis of the approaches in the silde below:
-
+&nbsp;&nbsp;&nbsp;&nbsp;You can see the results and analysis of the approaches in the silde below: 
+> Report [[Slide](Report/[slide]-Machine_Translation.pptx)]
 
 ## Issues
 
