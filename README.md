@@ -29,41 +29,15 @@ $$ŵ^{(t)} = argmax_{(w(t))}θ(w(s), w(t))$$
 - **Method 2:** Building a machine translation model using pre-trained models such as BERT and GPT
 - **Method 3:** Building a machine translation model using the mBART model with pre-trained mBART50.
 
-## Getting Started
+&nbsp;&nbsp;&nbsp;&nbsp;And I use beam search to select words in decode and evaluate the translation results with a Bleu score.
 
-To get started, follow these simple steps:
+## Main results
+&nbsp;&nbsp;&nbsp;&nbsp;You can see the results and analysis of the approaches in the silde below:
 
-1. Clone this repository: `git clone https://github.com/myusername/myawesomeproject.git`
-2. Install the necessary dependencies: `npm install`
-3. Run the project: `npm start`
-
-That's it! You should now see the project running at `http://localhost:3000`.
-
-## Features
-
-This project comes with the following features:
-
-- **Feature 1:** Allows you to do [something amazing].
-- **Feature 2:** Helps you achieve [an awesome goal].
-- **Feature 3:** Saves you time by automating [a tedious task].
-
-## Contributing
-
-We welcome contributions from everyone! If you'd like to contribute, please follow these steps:
-
-1. Fork this repository.
-2. Create a new branch: `git checkout -b my-new-feature`
-3. Make your changes and commit them: `git commit -am 'Add some feature'`
-4. Push your changes to your fork: `git push origin my-new-feature`
-5. Submit a pull request.
 
 ## Issues
 
 If you encounter any issues while using this project, please [open a new issue](https://github.com/myusername/myawesomeproject/issues/new). We'll do our best to address it as soon as possible.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
